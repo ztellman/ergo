@@ -14,10 +14,7 @@ int main()
 {
 	weights = "";
 	
-	for (int i = 2; i < 100000000; i*=2)
-	{
-		simulate_set(i);
-	}
+	simulate_set(100000);
 	
 	getchar();
 }
